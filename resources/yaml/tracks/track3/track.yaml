@@ -1,0 +1,58 @@
+track3:
+    texture:
+        preview: textures/greenhill.jpg
+        background: textures/green-hill-background.jpg
+        file: textures/track.png
+        rectangles:
+            - coord: {left: 1125, top: 2437, width: 922, height: 886}	# road_straight = 1125 2437 922 886
+              type: road_straight
+            - coord: {left: 0, top: 0, width: 1772, height: 1551}	# road_long_curve_left = 0 0 1772 1551
+              type: road_long_curve_left
+            - coord: {left: 1772, top: 0, width: 1772, height: 1551}	# road_long_curve_right = 1772 0 1772 1551
+              type: road_long_curve_right
+            - coord: {left: 0, top: 1551, width: 1125, height: 1125}	# road_curve_left = 0 1551 1125 1125
+              type: road_curve_left
+            - coord: {left: 0, top: 2676, width: 1125, height: 1125}	# road_curve_right = 0 2676 1125 1125
+              type: road_curve_right
+            - coord: {left: 1125, top: 1551, width: 922, height: 886}	# road_check = 1125 1551 922 886
+              type: road_check
+    rotation: 0	# (0 = up; 90 = right; 180/-180 = down; 90 = left)
+    roads:		# road_check / road_straight / road_curve_left / road_curve_right
+        - type: road_check
+        - type: road_straight
+        - type: road_curve_right
+        - type: road_curve_right
+        - type: road_curve_left
+        - type: road_curve_left
+        - type: road_straight
+        - type: road_straight
+        - type: road_curve_left
+        - type: road_curve_right
+        - type: road_curve_left
+        - type: road_curve_left
+        - type: road_curve_right
+        - type: road_straight
+        - type: road_curve_left
+        - type: road_curve_right
+        - type: road_straight
+        - type: road_curve_right
+        - type: road_curve_left
+        - type: road_curve_left
+        - type: road_straight
+        - type: road_straight
+        - type: road_curve_left
+        - type: road_straight
+        - type: road_curve_right
+        - type: road_curve_left
+        - type: road_straight
+        - type: road_curve_right
+        - type: road_straight
+        - type: road_straight
+        - type: road_curve_left
+        - type: road_curve_left
+        - type: road_straight
+        - type: road_straight
+        - type: road_straight
+
+
+       

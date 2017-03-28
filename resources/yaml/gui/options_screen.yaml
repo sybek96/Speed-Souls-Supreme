@@ -1,0 +1,34 @@
+options_screen:
+    texture:
+        button:
+            file: textures/gui_button.png
+            rectangles:
+                - coord: {left: 0, top: 0, width: 0, height: 0}	# stuff
+        slider:
+            file: textures/gui_slider.png
+            rectangles:
+                - coord: {left: 0, top: 0, width: 0, height: 0}	# stuff
+        checkbox:
+            file: textures/gui_checkbox.png
+            rectangles:
+                - coord: {left: 0, top: 0, width: 0, height: 0}	# stuff
+        background:
+            file: textures/car-selection-background.jpg
+            rectangles:
+                - coord: {left: 0, top: 0, width: 800, height: 600}
+    font:
+        content:
+            file: fonts/ZeroVelocity.ttf
+            char_size: 15
+    gui:
+        style: stack_vertically
+        elements:
+            - type: button
+              position: {x: 400, y: 300}
+              text: Start Game
+            - type: button
+              position: {x: 400, y: 300}
+              text: Button
+            - type: checkbox
+              position: {x: 400, y: 300}
+              text: Exit Game

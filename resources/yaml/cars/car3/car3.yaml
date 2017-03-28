@@ -1,0 +1,15 @@
+car3:
+    position: {x: 200, y: -800}
+    texture:
+        file: textures/car3.png
+        origin: {x: 184, y: 228}
+        rectangles:
+            - coord: {left: 0, top: 0, width: 339, height: 777}		# normal
+            - coord: {left: 0, top: 0, width: 0, height: 0}	# normal_brakelights_on
+            - coord: {left: 0, top: 0, width: 0, height: 0}	# normal_headlights_on
+            - coord: {left: 0, top: 0, width: 0, height: 0}	# normal_both_on
+    sound:
+      - type: idle
+        file: cars/car1/engine-idle.wav
+      - type: start
+        file: cars/car1/engine-starting-idle.wav

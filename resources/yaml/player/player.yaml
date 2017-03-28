@@ -1,0 +1,8 @@
+player:
+  car-selected: none
+  stats:
+    engine: 1
+    handling: 1
+    wheel: 1
+  tracks-completed: 0
+  tracks-selected: 0

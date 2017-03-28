@@ -1,0 +1,614 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\components">
+      <UniqueIdentifier>{2ad4f9a5-7bed-45e8-8d6f-ff202c4a00d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\util">
+      <UniqueIdentifier>{0541abe4-7cc1-4d4c-b853-a32878c018c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\systems">
+      <UniqueIdentifier>{59d8353d-c0fd-45ef-acfd-90d4cc9ccae5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\components">
+      <UniqueIdentifier>{66f8436c-ef95-457b-b8e0-c75e8540a5bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\util">
+      <UniqueIdentifier>{3331d08a-f059-4c24-8a31-c6a2fba1ff0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\systems">
+      <UniqueIdentifier>{ce00e7e2-2306-4454-a8fb-1cf2027b8976}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\events">
+      <UniqueIdentifier>{0ad39ce8-79dd-4557-ba7f-f64a56b19abf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\entities">
+      <UniqueIdentifier>{cca7a620-bf6a-432f-be48-5f61bb1408c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\entities">
+      <UniqueIdentifier>{249480c1-b15d-4472-9954-51dd52cee1e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\textures">
+      <UniqueIdentifier>{0a2d30a9-ddd9-4382-9267-8e91c384d9e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\sounds">
+      <UniqueIdentifier>{c7acedbc-36c8-4acb-b45b-826edee32514}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\yaml">
+      <UniqueIdentifier>{f427fe66-e6c3-4c36-82db-a0566d971015}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\yaml\cars">
+      <UniqueIdentifier>{ea996c2a-e196-40ae-9dff-0a6f89700c1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\yaml\cars\car1">
+      <UniqueIdentifier>{b0ec06ed-250e-4457-bc21-54a3495f9f60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\yaml\tracks">
+      <UniqueIdentifier>{4dc0826c-43f9-47f3-913f-c853a30ea90f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\yaml\tracks\track1">
+      <UniqueIdentifier>{5073f9ff-3510-464b-b900-3a11b5c660ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\yaml\cars\car2">
+      <UniqueIdentifier>{7e7234f0-a564-4c3f-9b0c-d733923a0ae1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\gui">
+      <UniqueIdentifier>{0f03938e-46cf-4c3e-a737-c51d1baa3460}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\gui">
+      <UniqueIdentifier>{29aa90c4-55ec-4ecf-8f36-e00acb8223b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\yaml\gui">
+      <UniqueIdentifier>{546d4cb8-b339-46bd-a2d2-88a06b0b7b01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\fonts">
+      <UniqueIdentifier>{5dc708f7-b080-4d0f-93f5-457227eb398a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\yaml\player">
+      <UniqueIdentifier>{19869fd2-eb14-4431-90f1-b3902df001d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\yaml\tracks\track2">
+      <UniqueIdentifier>{d75ed23a-3c95-4268-b52c-b1bdb04781d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\yaml\tracks\track3">
+      <UniqueIdentifier>{4bd8a4c5-25f7-448a-ae7a-4f472794213a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\yaml\cars\car3">
+      <UniqueIdentifier>{9fe807ee-a457-4ae7-b151-d81671962694}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\shaders">
+      <UniqueIdentifier>{8f92705e-0adf-4b40-af03-6441a09f1b00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\yaml\cars\car4">
+      <UniqueIdentifier>{2bedb283-806d-409b-9dc7-2fa1af462ebe}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\util\CarLoader.cpp">
+      <Filter>Source Files\util</Filter>
+    </ClCompile>
+    <ClCompile Include="src\util\CollisionDetector.cpp">
+      <Filter>Source Files\util</Filter>
+    </ClCompile>
+    <ClCompile Include="src\util\Physics.cpp">
+      <Filter>Source Files\util</Filter>
+    </ClCompile>
+    <ClCompile Include="src\util\ResourcePath.cpp">
+      <Filter>Source Files\util</Filter>
+    </ClCompile>
+    <ClCompile Include="src\util\ScreenSize.cpp">
+      <Filter>Source Files\util</Filter>
+    </ClCompile>
+    <ClCompile Include="src\util\TrackLoader.cpp">
+      <Filter>Source Files\util</Filter>
+    </ClCompile>
+    <ClCompile Include="src\util\TranformedBoundingBox.cpp">
+      <Filter>Source Files\util</Filter>
+    </ClCompile>
+    <ClCompile Include="src\util\Xbox360Controller.cpp">
+      <Filter>Source Files\util</Filter>
+    </ClCompile>
+    <ClCompile Include="src\systems\CollisionSystem.cpp">
+      <Filter>Source Files\systems</Filter>
+    </ClCompile>
+    <ClCompile Include="src\systems\InputSystem.cpp">
+      <Filter>Source Files\systems</Filter>
+    </ClCompile>
+    <ClCompile Include="src\systems\LevelSystem.cpp">
+      <Filter>Source Files\systems</Filter>
+    </ClCompile>
+    <ClCompile Include="src\systems\MotionSystem.cpp">
+      <Filter>Source Files\systems</Filter>
+    </ClCompile>
+    <ClCompile Include="src\systems\RenderSystem.cpp">
+      <Filter>Source Files\systems</Filter>
+    </ClCompile>
+    <ClCompile Include="src\entities\CarCreator.cpp">
+      <Filter>Source Files\entities</Filter>
+    </ClCompile>
+    <ClCompile Include="src\entities\RoadCreator.cpp">
+      <Filter>Source Files\entities</Filter>
+    </ClCompile>
+    <ClCompile Include="src\components\Acceleration.cpp">
+      <Filter>Source Files\components</Filter>
+    </ClCompile>
+    <ClCompile Include="src\components\Car.cpp">
+      <Filter>Source Files\components</Filter>
+    </ClCompile>
+    <ClCompile Include="src\components\CollisionBox.cpp">
+      <Filter>Source Files\components</Filter>
+    </ClCompile>
+    <ClCompile Include="src\components\Display.cpp">
+      <Filter>Source Files\components</Filter>
+    </ClCompile>
+    <ClCompile Include="src\components\InputControl.cpp">
+      <Filter>Source Files\components</Filter>
+    </ClCompile>
+    <ClCompile Include="src\components\Video.cpp">
+      <Filter>Source Files\components</Filter>
+    </ClCompile>
+    <ClCompile Include="src\systems\MenuSystem.cpp">
+      <Filter>Source Files\systems</Filter>
+    </ClCompile>
+    <ClCompile Include="src\components\Player.cpp">
+      <Filter>Source Files\components</Filter>
+    </ClCompile>
+    <ClCompile Include="src\components\Position.cpp">
+      <Filter>Source Files\components</Filter>
+    </ClCompile>
+    <ClCompile Include="src\components\Road.cpp">
+      <Filter>Source Files\components</Filter>
+    </ClCompile>
+    <ClCompile Include="src\components\Velocity.cpp">
+      <Filter>Source Files\components</Filter>
+    </ClCompile>
+    <ClCompile Include="src\systems\ScrollSystem.cpp">
+      <Filter>Source Files\systems</Filter>
+    </ClCompile>
+    <ClCompile Include="src\util\BTMath.cpp">
+      <Filter>Source Files\util</Filter>
+    </ClCompile>
+    <ClCompile Include="src\systems\MiniMapSystem.cpp">
+      <Filter>Source Files\systems</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui\Button.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui\CheckBox.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui\GUI.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui\Label.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui\Slider.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui\Widget.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\util\MenuLoader.cpp">
+      <Filter>Source Files\util</Filter>
+    </ClCompile>
+    <ClCompile Include="src\util\PlayerYaml.cpp">
+      <Filter>Source Files\util</Filter>
+    </ClCompile>
+    <ClCompile Include="src\components\Ai.cpp">
+      <Filter>Source Files\components</Filter>
+    </ClCompile>
+    <ClCompile Include="src\systems\CarTrackingSystem.cpp">
+      <Filter>Source Files\systems</Filter>
+    </ClCompile>
+    <ClCompile Include="src\components\Ai.cpp">
+      <Filter>Source Files\components</Filter>
+    </ClCompile>
+    <ClCompile Include="src\systems\AiSystem.cpp">
+      <Filter>Source Files\systems</Filter>
+    </ClCompile>
+    <ClCompile Include="src\systems\MovieSystem.cpp">
+      <Filter>Source Files\systems</Filter>
+    </ClCompile>
+    <ClCompile Include="src\systems\MenuRenderSystem.cpp">
+      <Filter>Source Files\systems</Filter>
+    </ClCompile>
+    <ClCompile Include="src\util\StaticTime.cpp">
+      <Filter>Source Files\util</Filter>
+    </ClCompile>
+    <ClCompile Include="src\util\RoadCount.cpp">
+      <Filter>Source Files\util</Filter>
+    </ClCompile>
+    <ClCompile Include="src\systems\ParticleSystem.cpp">
+      <Filter>Source Files\systems</Filter>
+    </ClCompile>
+    <ClCompile Include="src\components\Particle.cpp">
+      <Filter>Source Files\components</Filter>
+    </ClCompile>
+    <ClCompile Include="src\systems\HudSystem.cpp">
+      <Filter>Source Files\systems</Filter>
+    </ClCompile>
+    <ClCompile Include="src\systems\HeadLightSystem.cpp">
+      <Filter>Source Files\systems</Filter>
+    </ClCompile>
+    <ClCompile Include="src\systems\SoundSystem.cpp">
+      <Filter>Source Files\systems</Filter>
+    </ClCompile>
+    <ClCompile Include="src\components\Light.cpp">
+      <Filter>Source Files\components</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\Game.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GameManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\util\CarLoader.h">
+      <Filter>Header Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include="include\util\CollisionDetector.h">
+      <Filter>Header Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include="include\util\Debug.h">
+      <Filter>Header Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include="include\util\GameStates.h">
+      <Filter>Header Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include="include\util\Physics.h">
+      <Filter>Header Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include="include\util\ResourcePath.h">
+      <Filter>Header Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include="include\util\ResourceTypes.h">
+      <Filter>Header Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include="include\util\ScreenSize.h">
+      <Filter>Header Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include="include\util\TrackLoader.h">
+      <Filter>Header Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include="include\util\TranformedBoundingBox.h">
+      <Filter>Header Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include="include\util\Xbox360Controller.h">
+      <Filter>Header Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include="include\systems\CollisionSystem.h">
+      <Filter>Header Files\systems</Filter>
+    </ClInclude>
+    <ClInclude Include="include\systems\InputSystem.h">
+      <Filter>Header Files\systems</Filter>
+    </ClInclude>
+    <ClInclude Include="include\systems\LevelSystem.h">
+      <Filter>Header Files\systems</Filter>
+    </ClInclude>
+    <ClInclude Include="include\systems\MotionSystem.h">
+      <Filter>Header Files\systems</Filter>
+    </ClInclude>
+    <ClInclude Include="include\systems\RenderSystem.h">
+      <Filter>Header Files\systems</Filter>
+    </ClInclude>
+    <ClInclude Include="include\events\EvChangeGameState.h">
+      <Filter>Header Files\events</Filter>
+    </ClInclude>
+    <ClInclude Include="include\entities\CarCreator.h">
+      <Filter>Header Files\entities</Filter>
+    </ClInclude>
+    <ClInclude Include="include\entities\EntityCreator.h">
+      <Filter>Header Files\entities</Filter>
+    </ClInclude>
+    <ClInclude Include="include\entities\RoadCreator.h">
+      <Filter>Header Files\entities</Filter>
+    </ClInclude>
+    <ClInclude Include="include\components\Acceleration.h">
+      <Filter>Header Files\components</Filter>
+    </ClInclude>
+    <ClInclude Include="include\components\Car.h">
+      <Filter>Header Files\components</Filter>
+    </ClInclude>
+    <ClInclude Include="include\components\CollisionBox.h">
+      <Filter>Header Files\components</Filter>
+    </ClInclude>
+    <ClInclude Include="include\components\Display.h">
+      <Filter>Header Files\components</Filter>
+    </ClInclude>
+    <ClInclude Include="include\components\InputControl.h">
+      <Filter>Header Files\components</Filter>
+    </ClInclude>
+    <ClInclude Include="include\components\Video.h">
+      <Filter>Header Files\components</Filter>
+    </ClInclude>
+    <ClInclude Include="include\systems\MenuSystem.h">
+      <Filter>Header Files\systems</Filter>
+    </ClInclude>
+    <ClInclude Include="include\components\Player.h">
+      <Filter>Header Files\components</Filter>
+    </ClInclude>
+    <ClInclude Include="include\components\Position.h">
+      <Filter>Header Files\components</Filter>
+    </ClInclude>
+    <ClInclude Include="include\components\Road.h">
+      <Filter>Header Files\components</Filter>
+    </ClInclude>
+    <ClInclude Include="include\components\Velocity.h">
+      <Filter>Header Files\components</Filter>
+    </ClInclude>
+    <ClInclude Include="include\systems\ScrollSystem.h">
+      <Filter>Header Files\systems</Filter>
+    </ClInclude>
+    <ClInclude Include="include\events\EvAssetsLoaded.h">
+      <Filter>Header Files\events</Filter>
+    </ClInclude>
+    <ClInclude Include="include\util\BTMath.h">
+      <Filter>Header Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include="include\systems\MiniMapSystem.h">
+      <Filter>Header Files\systems</Filter>
+    </ClInclude>
+    <ClInclude Include="include\gui\Button.h">
+      <Filter>Header Files\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="include\gui\CheckBox.h">
+      <Filter>Header Files\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="include\gui\GUI.h">
+      <Filter>Header Files\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="include\gui\Label.h">
+      <Filter>Header Files\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="include\gui\Slider.h">
+      <Filter>Header Files\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="include\gui\Widget.h">
+      <Filter>Header Files\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="include\util\MenuLoader.h">
+      <Filter>Header Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include="include\util\PlayerYaml.h">
+      <Filter>Header Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include="include\components\Ai.h">
+      <Filter>Header Files\components</Filter>
+    </ClInclude>
+    <ClInclude Include="include\components\Ai.h">
+      <Filter>Header Files\components</Filter>
+    </ClInclude>
+    <ClInclude Include="include\systems\AiSystem.h">
+      <Filter>Header Files\systems</Filter>
+    </ClInclude>
+    <ClInclude Include="include\systems\CarTrackingSystem.h">
+      <Filter>Header Files\systems</Filter>
+    </ClInclude>
+    <ClInclude Include="include\systems\MovieSystem.h">
+      <Filter>Header Files\systems</Filter>
+    </ClInclude>
+    <ClInclude Include="include\systems\MenuRenderSystem.h">
+      <Filter>Header Files\systems</Filter>
+    </ClInclude>
+    <ClInclude Include="include\util\StaticTime.h">
+      <Filter>Header Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include="include\util\RoadCount.h">
+      <Filter>Header Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include="include\systems\ParticleSystem.h">
+      <Filter>Header Files\systems</Filter>
+    </ClInclude>
+    <ClInclude Include="include\components\Particle.h">
+      <Filter>Header Files\components</Filter>
+    </ClInclude>
+    <ClInclude Include="include\util\ParticleType.h">
+      <Filter>Header Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include="include\events\EvEmitParticles.h">
+      <Filter>Header Files\events</Filter>
+    </ClInclude>
+    <ClInclude Include="include\events\EvEraseParticle.h">
+      <Filter>Header Files\events</Filter>
+    </ClInclude>
+    <ClInclude Include="include\systems\HudSystem.h">
+      <Filter>Header Files\systems</Filter>
+    </ClInclude>
+    <ClInclude Include="include\events\EvLapUndone.h">
+      <Filter>Header Files\events</Filter>
+    </ClInclude>
+    <ClInclude Include="include\events\EvLapCompleted.h">
+      <Filter>Header Files\events</Filter>
+    </ClInclude>
+    <ClInclude Include="include\events\EvStartRace.h">
+      <Filter>Header Files\events</Filter>
+    </ClInclude>
+    <ClInclude Include="include\events\EvDayTime.h">
+      <Filter>Header Files\events</Filter>
+    </ClInclude>
+    <ClInclude Include="include\events\EvNightTime.h">
+      <Filter>Header Files\events</Filter>
+    </ClInclude>
+    <ClInclude Include="include\events\EvTrackSelected.h">
+      <Filter>Header Files\events</Filter>
+    </ClInclude>
+    <ClInclude Include="include\events\EvCarSelected.h">
+      <Filter>Header Files\events</Filter>
+    </ClInclude>
+    <ClInclude Include="include\systems\HeadLightSystem.h">
+      <Filter>Header Files\systems</Filter>
+    </ClInclude>
+    <ClInclude Include="include\systems\SoundSystem.h">
+      <Filter>Header Files\systems</Filter>
+    </ClInclude>
+    <ClInclude Include="include\events\EvPlaySong.h">
+      <Filter>Header Files\events</Filter>
+    </ClInclude>
+    <ClInclude Include="include\events\EvSoundEffect.h">
+      <Filter>Header Files\events</Filter>
+    </ClInclude>
+    <ClInclude Include="include\events\EvStopSong.h">
+      <Filter>Header Files\events</Filter>
+    </ClInclude>
+    <ClInclude Include="include\events\EvUpgradeEngine.h">
+      <Filter>Header Files\events</Filter>
+    </ClInclude>
+    <ClInclude Include="include\events\EvUpgradeWheels.h">
+      <Filter>Header Files\events</Filter>
+    </ClInclude>
+    <ClInclude Include="include\events\EvUpgradeHandling.h">
+      <Filter>Header Files\events</Filter>
+    </ClInclude>
+    <ClInclude Include="include\components\Light.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\events\EvStopSoundEffect.h">
+      <Filter>Header Files\events</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="README.md" />
+    <None Include="resources\yaml\cars\cars.yaml">
+      <Filter>Resource Files\yaml\cars</Filter>
+    </None>
+    <None Include="resources\yaml\cars\car1\car1.yaml">
+      <Filter>Resource Files\yaml\cars\car1</Filter>
+    </None>
+    <None Include="resources\yaml\tracks\track1\track.yaml">
+      <Filter>Resource Files\yaml\tracks\track1</Filter>
+    </None>
+    <None Include="resources\yaml\cars\car2\car2.yaml">
+      <Filter>Resource Files\yaml\cars\car2</Filter>
+    </None>
+    <None Include="resources\yaml\player\player.yaml">
+      <Filter>Resource Files\yaml\player</Filter>
+    </None>
+    <None Include="resources\yaml\tracks\track2\track.yaml">
+      <Filter>Resource Files\yaml\tracks\track2</Filter>
+    </None>
+    <None Include="resources\yaml\tracks\track3\track.yaml">
+      <Filter>Resource Files\yaml\tracks\track3</Filter>
+    </None>
+    <None Include="resources\shaders\shader.frag">
+      <Filter>Resource Files\shaders</Filter>
+    </None>
+    <None Include="resources\shaders\shader.vert">
+      <Filter>Resource Files\shaders</Filter>
+    </None>
+    <None Include="resources\yaml\cars\car3\car3.yaml">
+      <Filter>Resource Files\yaml\cars\car3</Filter>
+    </None>
+    <None Include="resources\yaml\gui\car_selection.yaml">
+      <Filter>Resource Files\yaml\gui</Filter>
+    </None>
+    <None Include="resources\yaml\gui\main_menu.yaml">
+      <Filter>Resource Files\yaml\gui</Filter>
+    </None>
+    <None Include="resources\yaml\gui\options_screen.yaml">
+      <Filter>Resource Files\yaml\gui</Filter>
+    </None>
+    <None Include="resources\yaml\gui\splash_screen.yaml">
+      <Filter>Resource Files\yaml\gui</Filter>
+    </None>
+    <None Include="resources\yaml\gui\track_selection.yaml">
+      <Filter>Resource Files\yaml\gui</Filter>
+    </None>
+    <None Include="resources\yaml\gui\upgrade.yaml">
+      <Filter>Resource Files\yaml\gui</Filter>
+    </None>
+    <None Include="resources\yaml\cars\car4\car4.yaml">
+      <Filter>Resource Files\yaml\cars\car4</Filter>
+    </None>
+    <None Include="resources\sounds\ButtonClick.ogg">
+      <Filter>Resource Files\sounds</Filter>
+    </None>
+    <None Include="resources\sounds\engine.ogg">
+      <Filter>Resource Files\sounds</Filter>
+    </None>
+    <None Include="resources\sounds\GreenHill.ogg">
+      <Filter>Resource Files\sounds</Filter>
+    </None>
+    <None Include="resources\sounds\Handbrake.ogg">
+      <Filter>Resource Files\sounds</Filter>
+    </None>
+    <None Include="resources\sounds\Menu.ogg">
+      <Filter>Resource Files\sounds</Filter>
+    </None>
+    <None Include="resources\sounds\RockyRoad.ogg">
+      <Filter>Resource Files\sounds</Filter>
+    </None>
+    <None Include="resources\sounds\sandy-beach-song.ogg">
+      <Filter>Resource Files\sounds</Filter>
+    </None>
+    <None Include="resources\sounds\slider-move.ogg">
+      <Filter>Resource Files\sounds</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="resources\textures\car1.png">
+      <Filter>Resource Files\textures</Filter>
+    </Image>
+    <Image Include="resources\textures\car2.png">
+      <Filter>Resource Files\textures</Filter>
+    </Image>
+    <Image Include="resources\textures\car3.png">
+      <Filter>Resource Files\textures</Filter>
+    </Image>
+    <Image Include="resources\textures\gui_button.png">
+      <Filter>Resource Files\textures</Filter>
+    </Image>
+    <Image Include="resources\textures\gui_checkbox.png">
+      <Filter>Resource Files\textures</Filter>
+    </Image>
+    <Image Include="resources\textures\gui_slider.png">
+      <Filter>Resource Files\textures</Filter>
+    </Image>
+    <Image Include="resources\textures\track.png">
+      <Filter>Resource Files\textures</Filter>
+    </Image>
+    <Image Include="resources\textures\radial_effect.png">
+      <Filter>Resource Files\textures</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="resources\sounds\engine-idle.wav">
+      <Filter>Resource Files\sounds</Filter>
+    </Media>
+    <Media Include="resources\sounds\engine-starting-idle.wav">
+      <Filter>Resource Files\sounds</Filter>
+    </Media>
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="resources\fonts\ZeroVelocity.ttf">
+      <Filter>Resource Files\fonts</Filter>
+    </Font>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="resources\shaders\shader.txt">
+      <Filter>Resource Files\shaders</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,9 @@
+#version 400
+
+uniform vec4 color;
+out vec4 fColor;
+
+void main( void ) 
+{
+	fColor = color * vec4(0.0f, 0.0f, 0.1f, 1.0f);
+}
